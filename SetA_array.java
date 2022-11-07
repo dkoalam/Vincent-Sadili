@@ -39,6 +39,8 @@ public class SetA_array {
                 System.out.println("Invalid input");
                 System.exit(0);
             }
+            
+            //adding String and int
             if(i==numStudent){
                 aveS=aveS+grades[i];
 
