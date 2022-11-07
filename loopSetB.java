@@ -15,7 +15,7 @@ public class loopSetB {
      
 System.out.println("Press [A] for Apple - 50");
 System.out.println("Press [B] for Banana - 15");
-System.out.println("Press [C] for Coco - 15");
+System.out.println("Press [C] for Coco - 10");
 
 
 
