@@ -73,6 +73,26 @@ public class SetA_array {
             System.out.println("SADLY MAJORITY OF THE STUDENTS FAILED!");
         }
 
+/*Sample output
+Enter your name: karlo
+Enter number of Student you want to input: 3
+Enter Student name:bien
+Enter Grades: 76
+GRADE PASSED!
+Enter Student name:bion
+Enter Grades: 78
+GRADE PASSED!
+Enter Student name:haze
+Enter Grades: 74
+GRADE FAILED!
+1.bien-76
+2.bion-78
+3.haze-74
+(76+78+74+)/3=76
+Hi Prof! karlo
+There are 2 passed and 1 failed among the 3 student grades.
+CONGRATULATIONS MAJORITY OF THE STUDENTS PASSED!
+ */
 
 
 
