@@ -54,5 +54,74 @@ public class ATM {
         } else {
             System.out.println("Incorrect PIN");
         }
+        /*
+Create a program that will process a basic transaction of an ATM. The program must have a withdrawal, deposit, and checking of balance. The default PIN is “123456”, the default cash on account is: 1000. One transaction per execution of program to test. The program must test if the PIN is correct, it also check if the amount to withdraw is less than or equal to the current cash on account. You can create your own message per test cases like: “Insufficient Fund”, “Incorrect PIN” etc.
+
+Sample Output for Withdraw:
+
+Enter PIN: 123456
+
+Please choose transaction:
+
+[W] – Withdraw
+
+[D] – Deposit
+
+[C] – Check balance
+
+Enter here: W
+
+How much would you like to withdraw: 500
+
+Your remaining balance is: 500
+
+You’ll get 500 pesos.
+
+Thank you for banking with us!
+
+----------------------------- end of program ---------------------------
+
+Sample Output for Deposit:
+
+Enter PIN: 123456
+
+Please choose transaction:
+
+[W] – Withdraw
+
+[D] – Deposit
+
+[C] – Check balance
+
+Enter here: D
+
+How much would you like to deposit: 500
+
+Your remaining balance is: 1500
+
+Thank you for banking with us!
+
+----------------------------- end of program ----------------------------
+
+Sample Output for Check balance:
+
+Enter PIN: 123456
+
+Please choose transaction:
+
+[W] – Withdraw
+
+[D] – Deposit
+
+[C] – Check balance
+
+Enter here: C
+
+Your remaining balance is: 1000
+
+Thank you for banking with us!
+
+---------------------------- end of program -------------------------------
+        */
     }
 }
