@@ -46,6 +46,37 @@ public class Problem1 {
             System.out.println("Invalid Input");
             System.out.println("The value is guaranteed to be > 0.");
         }
+        /*
+        Problem 1 Description
+
+Hello! My name is Daisy and I work for Philippine Airlines. As our gift for passengers who frequently fly with us, we’ve decided to pick someone who flew with us the most in the last few months or so. In order to do that, we need to be able to identify that person among all of the other frequent flyers. Your job would be to create a program that would print out the most frequent number that pops up in the system. If there is more than one most frequent number, print the larger one. (Assume that the values of the integers are in the range of 1 – 100).
+
+Input
+
+1. The number of frequent flyers
+
+Constraints
+
+The value is guaranteed to be > 0.
+
+2. The frequent flyers ​
+
+Constraints
+
+Each frequent flyer number is within the range: <= 100 and >= 1
+
+ 
+
+Test Case:
+
+
+
+Enter the number of frequent flyers: 5
+
+Enter the frequent flyers: 1 1 5 8 9
+
+Most frequent = 1
+        */
     }
 
 }
