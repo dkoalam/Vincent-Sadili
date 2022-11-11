@@ -56,7 +56,7 @@ public class SetA_array {
 }
 
 
-
+        //stores the array inputs
         for (int i=0;i<numStudent;i++){
             System.out.println((i+1)+"."+name[i]+"-"+grades[i]);
         }
