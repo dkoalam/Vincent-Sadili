@@ -185,6 +185,31 @@ public class commission_Switch {
        }
        System.out.println("Commission: "+com);
 
+        /*Department Code:
+[1] - Toy Section
+[2] - Ladies Wear Section
+[3] - Mens Wear Section
+[4] - Kiddie Section
+Enter Sales Representatives' Name: ascasa
+Enter ID Number: 1121
+Enter Department Code: 
+0
+Code is incorrect, Try Again!
+Enter Department Code: 1
+You are in Toy Section
+Toy Section Available Products and Price
+[A] - Toy Car    |300.00Php
+[B] - Stuff Toys |500.00Php
+Enter product: d
+Code is incorrect, Try Again!
+Enter product: a
+Enter Quantity: 0
+Invalid Quantity: 
+Enter Quantity: 12
+QUANTITY: 12.0
+Total Amount: 3600.0
+Commission: 0.0*/
     }
+    
 
 }
