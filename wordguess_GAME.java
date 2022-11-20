@@ -59,7 +59,71 @@ public class wordguess_GAME {
             System.out.println("Would you like to try again?[y/n]: ");
             ask = s.next();
         }
+/*
+Create a guessing game, user must first enter a word to guess. Then the user will be asked to enter how many clues does he want to provide to the user. The game starts and the user must guess the word being referred to by the clues. The user can win the game by guessing the word, if the user fails then he’ll only have 3 attempts to guess the word. If the game ends and the user wasn’t able to guess the word he has a choice to continue guessing or to not continue.
 
+Sample Output:
+
+Hi wordmaster!
+
+Enter the word to be guessed: banana(inputted)
+
+Enter how many clues to provide: 3(inputted)
+
+Enter clue #1: It’s yellow. (inputted)
+
+Enter clue #2: It’s a fruit. (inputted)
+
+Enter clue #3: Monkeys Love to eat it. (inputted)
+
+------------------------------------
+
+GUESSING STARTS NOW
+
+______________________
+
+Here are your clues!
+
+1.) It’s yellow.
+
+2.) It’s a fruit.
+
+3.) Monkeys Love to eat it.
+
+You have 3 tries left!
+
+Enter your answer: apple(inputted)
+
+WRONG!
+
+You have 2 tries left!
+
+Enter your answer: grapes(inputted)
+
+WRONG!
+
+You have 1 tries left!
+
+Enter your answer: banana(inputted)
+
+CORRECT! The word being asked is banana!
+
+YOU WON THE GAME!
+
+// if you are wrong and run out of tries.
+
+You have 1 tries left!
+
+Enter your answer: coffee(inputted)
+
+WRONG!
+
+You have 0 tries left!
+
+Would you like to try again?[y/n]: yes..
+
+// if the player runs out of tries its game over display GAME OVER and ask if he would like to try again. Reset the number of tries to 3 if the user enters yes and if the user enters no, simply end the program
+*/
     }
 
 }
