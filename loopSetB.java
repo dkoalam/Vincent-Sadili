@@ -59,7 +59,24 @@ System.out.println("Thank you "+name+", your total to pay is "+ntotal);
 
 
 
+/*
+Enter customer name: Karlo Emil Flores (input)
 
+Press [A] for Apple - 50
+Press [B] for Banana - 15
+Press [C] for Coco - 10
+
+Enter your choice: A (input)
+How many:? 2 (input)
+Total: 100 
+New Total is: 100
+Would you like to add more items to the cart? [y/n]: y (input)
+Enter your choice: B (input)
+How many:? 1
+Total:15
+New Total:115
+Would you like to add more items to the cart? [y/n]: n (input)
+*/
 
       }
 
