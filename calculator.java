@@ -1,5 +1,5 @@
 import java.util.*;
-public class vincent{
+public class calculator{
 public static void main(String[] args) {
     Scanner s =new Scanner(System.in);
 System.out.println("num1");
