@@ -1,5 +1,33 @@
 import java.util.*;
+/*
+Hi wordmaster!
+Enter the word to be guessed: ice
+Enter how many clues to provide: 3
+Enter clue #1: malamig
+Enter clue #2: matigas
+Enter clue #3: tubig
+-------GUESSING STARTS NOW-------
+<->Here are your clues!<->
 
+[malamig, matigas, tubig]
+
+You have 3 tries left!
+Enter your answer: yelo
+WRONG!
+You have 2 tries left!
+Enter your answer: etits
+WRONG!
+You have 1 tries left!
+Enter your answer: bullshit
+WRONG!
+You have 0 tries left!
+Would you like to try again?[y/n]: 
+y
+You have 3 tries left!
+Enter your answer: ice
+CORRECT! The word being asked is ice!
+ YOU WON THE GAME!
+*/
 public class arraylist_and_method_wordguess_GAME {
 
     public static void main(String[] args) {
