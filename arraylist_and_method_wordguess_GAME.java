@@ -1,5 +1,42 @@
 import java.util.*;
 
+/*
+Hi wordmaster!
+
+Enter the word to be guessed: banana
+Enter how many clues to provide: 3
+Enter clue #1: yellow
+Enter clue #2: long
+Enter clue #3: monkey
+
+-------GUESSING STARTS NOW-------
+<->Here are your clues!<->
+
+1.) yellow
+2.) long
+3.) monkey
+
+You have 3 tries left!
+Enter your answer: mango
+WRONG!
+You have 2 tries left!
+Enter your answer: apple
+WRONG!
+You have 1 tries left!
+Enter your answer: saging
+WRONG!
+You have 0 tries left!
+
+Would you like to try again?[y/n]: 
+y
+
+You have 3 tries left!
+Enter your answer: banana
+
+CORRECT! The word being asked is banana!
+ YOU WON THE GAME!
+*/
+
 public class arraylist_and_method_wordguess_GAME {
 
     public static void main(String[] args) {
