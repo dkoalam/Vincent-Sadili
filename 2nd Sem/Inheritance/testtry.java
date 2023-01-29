@@ -10,7 +10,7 @@ public class testtry {
       // (Wizard) - wiseSmash -> damage dealt will be based on the the intelligence of
       // the wizard plus the difference between the int of the wizard and the target.
       // increase wizard's mp by 10
-       c2.wiseSmash(c1);
+      //c2.wiseSmash(c1);
 
       // Ninja Skill (Ninja) - backstab -> the ninja will have stab the enemy dealing
       // 10 damage, this will deal 30 damage if the enemy has less than 60% of the
