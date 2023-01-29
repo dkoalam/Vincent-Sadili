@@ -1,0 +1,444 @@
+      //Ninja c1 = new Ninja("steven", "Ninja", 11, 3, 4);
+      //Wizard c2 = new Wizard("Elijah", "Wizard", 2, 1, 15);
+      //Samurai c3 = new Samurai("Vionne", "Samurai", 3, 14, 1);
+      // wizard skills
+      // (Wizard) - fireBall -> damage dealt will be based on the intelligence of the
+      // wizard plus 10% of the current hp of the target. decreases wizard's mp by 10
+      // c2.fireBall(c3);
+      // OUTPUT
+      /*
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 75 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 90
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 75
+       * Hp: 75
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       -----------------------------------------------------------------------------------------------------------------
+       
+       */
+      // (Wizard) - wiseSmash -> damage dealt will be based on the the intelligence of
+      // the wizard plus the difference between the int of the wizard and the target.
+      // increase wizard's mp by 10
+      // c2.wiseSmash(c1);
+      // OUTPUT
+      /*
+       * Elijah use Wise Smash to steven
+       * Elijah attacks steven
+       * steven now have 74 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 110
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * steven: 74
+       * Hp: 74
+       * Mp: 100
+       * intelligence: 4
+       * strength: 3
+       * agility: 11
+       --------------------------------------------------------------------------------------------------------------------
+       */
+
+      // Ninja Skill (Ninja) - backstab -> the ninja will have stab the enemy dealing
+      // 10 damage, this will deal 30 damage if the enemy has less than 60% of the
+      // maximum hp.
+      // (Wizard) - the wizard will take plus 5 damage from any source "FRAGILE
+      // CHARACTER"
+      // c1.backstab(c2);
+      // OUTPUT
+      /*
+       * steven use Back Stab to Elijah
+       * Elijah is FRAGILE CHARACTER
+       * steven attacks Elijah
+       * Elijah now have 85 hp
+       * steven: 100
+       * Hp: 100
+       * Mp: 100
+       * intelligence: 4
+       * strength: 3
+       * agility: 11
+       * 
+       * Elijah: 85
+       * Hp: 85
+       * Mp: 100
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+        -----------------------------------------------------------------------------------------------------------------
+        */
+
+      // Samurai revived (Samurai) - if the samurai takes damage and has his health
+      // reduced to 0, there is a 50% chance to return to life and gain 1 hp.
+      // c2.fireBall(c3);
+      // c2.fireBall(c3);
+      // c2.fireBall(c3);
+      // c2.fireBall(c3);
+      // c2.fireBall(c3);
+      // OUTPUT
+      /*
+       * THE 50%---DEAD -----------------------------------------------------------------------------------------------------------------
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 75 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 90
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 75
+       * Hp: 75
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 53 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 80
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 53
+       * Hp: 53
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 33 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 70
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 33
+       * Hp: 33
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 15 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 60
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 15
+       * Hp: 15
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Vionne is now dead
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 50
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 0
+       * Hp: 0
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * 
+       * ------------------------------------
+       * 
+       * THE OTHER 50% ---REVIVED--------------------------------------------------------------------------------------------------------------
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 75 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 90
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 75
+       * Hp: 75
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 53 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 80
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 53
+       * Hp: 53
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 33 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 70
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 33
+       * Hp: 33
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 15 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 60
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 15
+       * Hp: 15
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Vionne is now dead
+       * VionneThe Samurai gets revived
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 50
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 1
+       * Hp: 1
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 75 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 90
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 75
+       * Hp: 75
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 53 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 80
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 53
+       * Hp: 53
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 33 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 70
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 33
+       * Hp: 33
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Elijah attacks Vionne
+       * Vionne now have 15 hp
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 60
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 15
+       * Hp: 15
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * Elijah use Fireball to Vionne
+       * Vionne is now dead
+       * VionneThe Samurai gets revived
+       * Elijah: 100
+       * Hp: 100
+       * Mp: 50
+       * intelligence: 15
+       * strength: 1
+       * agility: 2
+       * 
+       * Vionne: 1
+       * Hp: 1
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+        -----------------------------------------------------------------------------------------------------------------
+        */
+
+      // Ninja crit (Ninja) - backstab -> the ninja will have stab the enemy dealing
+      // 10 damage, this will deal 30 damage if the enemy has less than 60% of the
+      // maximum hp.
+      // c1.backstab(c3);
+      // c1.backstab(c3);
+      // c1.backstab(c3);
+      // c1.backstab(c3);
+      // c1.backstab(c3);
+      // c1.backstab(c3);
+      // OUTPUT
+      /*
+       * steven use Back Stab to Vionne
+       * steven attacks Vionne
+       * Vionne now have 90 hp
+       * steven: 100
+       * Hp: 100
+       * Mp: 100
+       * intelligence: 4
+       * strength: 3
+       * agility: 11
+       * 
+       * Vionne: 90
+       * Hp: 90
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * steven use Back Stab to Vionne
+       * steven attacks Vionne
+       * Vionne now have 80 hp
+       * steven: 100
+       * Hp: 100
+       * Mp: 100
+       * intelligence: 4
+       * strength: 3
+       * agility: 11
+       * 
+       * Vionne: 80
+       * Hp: 80
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * steven use Back Stab to Vionne
+       * steven attacks Vionne
+       * Vionne now have 70 hp
+       * steven: 100
+       * Hp: 100
+       * Mp: 100
+       * intelligence: 4
+       * strength: 3
+       * agility: 11
+       * 
+       * Vionne: 70
+       * Hp: 70
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * steven use Back Stab to Vionne
+       * steven attacks Vionne
+       * Vionne now have 60 hp
+       * steven: 100
+       * Hp: 100
+       * Mp: 100
+       * intelligence: 4
+       * strength: 3
+       * agility: 11
+       * 
+       * Vionne: 60
+       * Hp: 60
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * steven use Back Stab to Vionne
+       * steven attacks Vionne
+       * Vionne now have 50 hp
+       * steven: 100
+       * Hp: 100
+       * Mp: 100
+       * intelligence: 4
+       * strength: 3
+       * agility: 11
+       * 
+       * Vionne: 50
+       * Hp: 50
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       * steven use Back Stab to Vionne
+       * steven attacks Vionne
+       * Vionne now have 20 hp
+       * steven: 100
+       * Hp: 100
+       * Mp: 100
+       * intelligence: 4
+       * strength: 3
+       * agility: 11
+       * 
+       * Vionne: 20
+       * Hp: 20
+       * Mp: 100
+       * intelligence: 1
+       * strength: 14
+       * agility: 3
+       */
