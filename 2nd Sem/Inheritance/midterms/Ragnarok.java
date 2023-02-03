@@ -14,7 +14,7 @@ public class Ragnarok {
     }
 
     public void setAlias(String alias) {
-        Alias = alias;
+        this.Alias = alias;
     }
 
     public int getHp() {
