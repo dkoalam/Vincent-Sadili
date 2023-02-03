@@ -4,7 +4,7 @@ public class Ragnarok {
     private int hp = 100, mp = 50;
 
     public Ragnarok(String alias, int hp, int map) {
-        Alias = alias;
+        this.Alias = alias;
         this.hp = hp;
         this.mp = map;
     }
