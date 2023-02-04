@@ -24,6 +24,6 @@ public class trytest {
 
 
 
-        //--All mana computation is correct
+        //--All mana computation are correct
     }
 }
