@@ -1,0 +1,99 @@
+Ragnarok 
+
+Create a class for Ragnarok where in a Human class has the following attributes: 
+
+Health -> integer (100) 
+
+Mana-> integer (50) 
+
+Alias -> String (“Unknown”) 
+
+There are three types of classes each sharing a different trait and skills, but all of them are capable of taking damage and dealing damage depending on the unique traits of each class. 
+
+Assassin  
+
+Health -> integer (80) 
+
+Energy-> integer (50) 
+
+Alias -> String (“Genbu”) 
+
+Traits/(Passive): 
+
+Agile: Has a 30% chance to dodge an attack if the assassin has more than 30 energy 
+Fragile: Assassin will take additional 5 damage from any source. 
+Skills/methods: 
+
+Backstab(): deals 30 Damage plus 20% of the target’s current health – costs 20 energy to cast 
+Punch(): deals 10 physical damage to a target and increases the assassin’s energy by 15 
+ 
+
+Hunter 
+
+Health -> integer (100) 
+
+Energy-> integer (40) 
+
+Alias -> String (“Mercene”) 
+
+Traits/(Passive): 
+
+Focus: if the target has 20% or less health remaining instantly kill the target. 
+Nearsighted: The hunter’s attacks always has a 20% chance to miss the target. 
+Skills/methods: 
+
+Snipe(): deals 40 Damage to a target and it cannot be dodged - costs 15 energy to cast 
+Arrowshot(): deals 20 physical damage to a target and if it hits gain 5 energy. 
+ 
+
+Wizard 
+
+Health -> integer (100) 
+
+Energy-> integer (80) 
+
+Alias -> String (“Veigar”) 
+
+Traits/(Passive): 
+
+Greedy: Any attacks dealt by the wizard will deal additional damage be based on 10% of his current energy 
+Absorption: if the wizard takes damage, 20% of the damage taken will be converted to energy. 
+Note: 
+
+Absorption will not block the attack. Damage will still be applied but he will also convert 20% of the damage taken into energy. 
+
+Skills/methods: 
+
+FocusBeam(): deals 30 Damage to a target and has a 50% chance to increase energy by 10. -  costs 25 energy to cast. 
+StaffSmite(): deals 10 physical damage to a target and recovers himself by 10 energy and health. 
+ 
+
+Create a test file which will simulate the following: 
+
+Wizard will use Focus Beam against Assassin
+
+Ninja will use BackStab against Wizard 
+
+Hunter will use Snipe to Assassin
+
+Hunter will use Snipe to Wizard 
+
+Assassin will use Punch to Wizard 
+
+Hunter will use Arrow Shot to Wizard 
+
+Wizard will use Focus Beam against Hunter 
+
+Note: 
+
+If the Character reaches 0 energy he/she should not be able to perform special attacks 
+
+If the Character reaches 0 health he/she should not be able to attack and is marked as KO 
+
+Make sure that proper operations are followed for each method, also computations. Apply abstract classes to your work you may use the past activities as your reference 
+
+
+
+INCLUDE YOUR SIGNATURE TO ALL FILES.
+
+MIDTERM_SECTION_SURNAME_FIRSTNAME_RAGS512
